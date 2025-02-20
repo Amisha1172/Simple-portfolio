@@ -74,3 +74,61 @@ li{
     border:1opx solid black;
     border-radius: 5px;
 }
+h4{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.second-page{
+    display: flex;
+    margin-left: 9rem;
+padding: 60px;
+    padding-bottom: 20px;
+    width: 80vw;
+    justify-content: space-around;
+    
+     background-color: black;
+     color: white;
+}
+.second-page img{
+    
+    height: 250px;
+    width: 250px;
+    border: 2px solid orange ;
+    border-radius: 120px;
+    margin: 20px;
+}
+.c{
+    color: white;
+    background-color: red;
+    padding-right: 20px;
+}
+.second-article img{
+    text-align: center;
+}
+.third-page{
+    /* display: flex; */
+     margin-left: 9rem;
+     padding: 60px;
+    /* padding-bottom: 20px; */
+    width: 80vw;
+    background-color: white;
+    text-align: center;
+}
+.d{
+    color: white;
+    background-color: black;
+    /* padding-right: 20px;  */
+    text-align: center;
+}
+.heading{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+.form1 input{
+width: 380px;
+gap: 10px;
+border-radius: 5px;
+}
