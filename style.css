@@ -62,3 +62,15 @@ li{
 .about{
     margin: 100px;
 }
+.a{
+    color: white;
+    background-color: black;
+    padding-right: 10px;
+
+}
+.b{
+    color:white;
+    background-color: red;
+    border:1opx solid black;
+    border-radius: 5px;
+}
