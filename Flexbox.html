@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS flexfox</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 200px;
+            border: 2px solid blue;
+            margin: 2px;
+            padding: 2px;
+        }
+        .container{
+            background-color:whitesmoke;
+            border: 5px solid brown;
+            margin: 2px;
+            height: 400px;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap;  */
+            align-items: start;
+            align-content: end;
+        }
+        #box1{
+background-color: red;
+/* flex-shrink: 4; */
+flex-grow: 5;
+        }
+        #box2{
+background-color: brown;
+        }
+        #bax3{
+background-color: blue;
+        }
+        #box4{
+background-color: orange;
+flex-grow: 2;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+<div class="box" id="box1"></div>
+<div class="box" id="box2"></div>
+<div class="box" id="box3"></div>
+<div class="box" id="box4"></div>
+     </div>
+     <p>this is a paragrph tag</p>
+</body>
+</html>
